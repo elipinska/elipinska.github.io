@@ -11,35 +11,54 @@
   -o-background-size: cover;
   background-size: cover;
   height: 400px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 
 .site-header {
-  background-color: #1d1d1d;
+  background-color: rgb(29, 29, 29);
   border-top: 0px;
 }
 
 
 .site-title, .site-title:visited {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 36px;
-    font-family: "Raleway"
+    font-family: "Raleway";
+    float: none;
     }
 
 .site-nav .page-link {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 18px;
-    font-family: "Raleway"
+    font-family: "Raleway";
   }
 
 a {
-    color: #1d1d1d;
+    color: rgb(29, 29, 29);
   }
 
 a:visited {
-    color: #593B33;
+    color: rgb(89, 59,51);
 }
 
 .site-nav {
     background-color: rgba(37, 29, 26, 0.7);
+  }
+
+  .box {
+    width: 300px;
+    margin: auto;
+    padding: 1.5em;
+    font-family: "Raleway";
+    font-size: 36px;
+    text-align: center;
+    background-color: rgba(29, 29, 29, 0.95);
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
   }
