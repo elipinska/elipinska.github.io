@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ewa's Web Experimentarium
-email: ewa.lipinska@hotmail.com
-description: 
-  My name is Ewa Lipinska and this is my first self-made website. For now this is really just a place for me to experiment with code and GitHub, but perhaps one day it will become something more!
+email: ewa.lipinska[at]hotmail.com
+description:
+  Welcome to my little corner of the Web! It's all about my adventures with code and a place for me to collect my various projects; there might also be an odd blog post or two to document my journey into the tech world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ewa_lipinska
