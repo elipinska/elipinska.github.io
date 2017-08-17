@@ -11,6 +11,7 @@ permalink: /about/
  <ul>
  <li>HTML & CSS,</li>
  <li>JavaScript and jQuery,</li>
+ <li>using Git and GitHub for version control,</li>
  <li>SQL,</li>
  <li> Ruby.</li>
  </ul>
