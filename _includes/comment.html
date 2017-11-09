@@ -35,10 +35,14 @@
 <form method="POST" action="https://api.staticman.net/v2/entry/elipinska/elipinska.github.io/master/comments">
   <input name="options[redirect]" type="hidden" value="https://elipinska.github.io/">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <h3>Leave a comment:</h3>
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  <label><input name="fields[name]" type="text">Name</label>
-  <label><input name="fields[email]" type="email">E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
+  <label>Name</label>
+  <input name="fields[name]" type="text">
+  <label>E-mail</label>
+  <input name="fields[email]" type="email">
+  <label>Message</label>
+  <textarea name="fields[message]"></textarea>
 
-  <button type="submit">Go!</button>
+  <button type="submit">Submit!</button>
 </form>
