@@ -1,3 +1,37 @@
+<p>
+<hr>
+<p>
+
+<!-- Static comments -->
+<!-- Partly based on Made Mistakes' comments.html file: -->
+<!-- https://github.com/mmistakes/minimal-mistakes/blob/master/_includes/comments.html -->
+<!-- Also partly based on Eduardo Boucas' reviews.html file -->
+<!-- https://github.com/eduardoboucas/popcorn/blob/gh-pages/_includes/reviews.html -->
+
+{% if site.data.comments[page.slug] %}
+
+  <h3>
+    {% if site.data.comments[page.slug].size > 1 %}
+      {{ site.data.comments[page.slug] | size }}
+    {% endif %}
+    Comments:
+  </h3>
+
+  <p>
+  <hr>
+
+  {% assign comments = site.data.comments[page.slug] | sort %}
+
+  {% for comment in comments %}
+    <br>
+    <legend><strong>{{ comment[1].name }}</strong><legend>
+    <em>{{ comment[1].date | date: "%B %d, %Y" }}</em>
+    <p>{{ comment[1].message | markdownify }}
+    <hr>
+  {% endfor %}
+  <p>
+{% endif %}
+
 <form method="POST" action="https://api.staticman.net/v2/entry/elipinska/elipinska.github.io/master/comments">
   <input name="options[redirect]" type="hidden" value="https://elipinska.github.io/">
   <!-- e.g. "2016-01-02-this-is-a-post" -->
