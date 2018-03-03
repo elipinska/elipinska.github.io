@@ -90,6 +90,11 @@ h13, h13 a, h13 a:visited {
   color: #828282;
 }
 
+figcaption {
+  text-align: center;
+  margin-top: 2px;
+}
+
 input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 8px 10px;
