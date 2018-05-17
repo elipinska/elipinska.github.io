@@ -71,10 +71,23 @@ permalink: /portfolio/
 
 <hr>
 
-<h2>Read my code on Repl.it</h2>
-<a href="https://repl.it/@elipinsk" target="_blank">
-<img border="0" alt="replit" src="/assets/images/repl.jpg" width="70%" height="70%">
-</a>
+<h2>Read my code on Github and Repl.it</h2>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/elipinska" target="_blank">
+      <img id="octocat" border="0" alt="octocat" src="/assets/images/octocat.png">
+      </a>
+    </td>
+    <td>
+      <a href="https://repl.it/@elipinsk" target="_blank">
+      <img border="0" alt="replit" src="/assets/images/repl.jpg">
+      </a>
+    </td>
+  </tr>
+</table>
+
 
 <hr>
 
