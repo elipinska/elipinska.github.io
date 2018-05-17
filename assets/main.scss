@@ -67,9 +67,14 @@ body {
 font-family: 'Raleway', sans-serif;
   }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
 }
+
+h2 {
+  margin-top: 1rem;
+}
+
 
 img {
   display: block;
@@ -80,6 +85,11 @@ img {
 .page-heading {
   font-size: 2em;
 }
+
+table {
+  width: 100%;
+}
+
 
 .home {
      text-align: center;
