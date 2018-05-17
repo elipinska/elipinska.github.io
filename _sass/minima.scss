@@ -42,6 +42,8 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
+$table-text-align: left !default;
+
 @import
   "minima/base",
   "minima/layout",
