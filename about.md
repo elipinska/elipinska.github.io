@@ -29,4 +29,4 @@ permalink: /about/
  <p>...and am constantly looking for new things to learn.</p>
 
 
- <p>Take a look at some of my coding projects in <a href="/portfolio" target="_blank">My Portfolio</a> or visit my <a href="https://www.linkedin.com/in/elipinska/" target="_blank">LinkedIn profile</a> to learn more about my professional experience.
+ <p>Take a look at some of my coding projects in <a href="/portfolio" target="blank">My Portfolio</a> or visit my <a href="https://www.linkedin.com/in/elipinska/" target="blank">LinkedIn profile</a> to learn more about my professional experience.
