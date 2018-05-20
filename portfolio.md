@@ -7,12 +7,12 @@ permalink: /portfolio/
 
 <h2>Projects completed during CodeClan's 16-week software development course</h2>
 
-<h3>Web app: Munro Explorer</h3>
+<h3><a href="https://github.com/elipinska/munro-explorer-heroku" target="_blank">Web app: Munro Explorer</a></h3>
 <a href="https://github.com/elipinska/munro-explorer-heroku" target="_blank">
 <img border="0" alt="munro explorer" src="/assets/images/munro_explorer.png">
 </a>
 
-<h3>Android app: GhostSweeper</h3>
+<h3><a href="https://github.com/elipinska/codeclan_project_2_ghost_sweeper" target="_blank">Android app: GhostSweeper</a></h3>
 <a href="https://github.com/elipinska/codeclan_project_2_ghost_sweeper" target="_blank">
 <img border="0" alt="ghostsweeper" src="/assets/images/ghostsweeper.png">
 </a>
