@@ -16,6 +16,7 @@ permalink: /about/
  <ul>
  <li>Object-Oriented programming,</li>
  <li>Test-driven development,</li>
+ <li>UML diagramming,</li>
  <li>the basics of UX,</li>
  <li>using Git and GitHub for version control,</li>
  <li>Agile methodologies,</li>
