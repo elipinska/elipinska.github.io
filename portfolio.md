@@ -17,6 +17,13 @@ permalink: /portfolio/
 <img border="0" alt="ghostsweeper" src="/assets/images/ghostsweeper.png">
 </a>
 
+<h3><a href="https://github.com/elipinska/group_project_iss_tracker" target="_blank">JavaScript app using multiple APIs: NASA ISS Tracker</a></h3>
+<a href="https://github.com/elipinska/group_project_iss_tracker" target="_blank">
+<img border="0" alt="iss tracker" src="/assets/images/iss_tracker.png">
+</a>
+
+
+
 <hr>
 
 <h2>My projects on CodePen</h2>
